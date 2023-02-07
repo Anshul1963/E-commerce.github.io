@@ -14,9 +14,7 @@ if (close){
     })
 }
 
-
-
-
+// Image slider home page
 var counter = 1;
     setInterval(function(){
       document.getElementById('radio' + counter).checked = true;
@@ -25,3 +23,16 @@ var counter = 1;
         counter = 1;
       }
     }, 5000);
+
+
+// Cart page 
+let cartIcon = document.querySelector("#cart-icon");
+let cart = document.querySelector(".cart-main");
+let closeCart = document.querySelector("#close-cart");
+
+cartIcon.onclick = () => {
+    cart.classList.add("active");
+};
+closeCart.onclick = () => {
+    cart.classList.remove("active");
+};
