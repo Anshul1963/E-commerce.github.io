@@ -31,6 +31,24 @@
   width: 100%;
   height: 565px;
 }
+.slide .slide-info{
+  position: absolute;
+  top: 275px;
+  left: 50px;
+}
+.slide .slide-info button{
+  background-image: url(img/button.png);
+  background-color: transparent;
+  border: 0;
+  color: #070b0b;
+  padding: 14px 80px 14px 65px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+
 
 /*css for manual slide navigation*/
 
