@@ -96,14 +96,16 @@ button.white{
     transition: 0.3s ease;
  }
 
- #navbar li a:hover{
+ #navbar li a:hover , #cart-icon:hover{
     color:#088178;
  }
 
- #navbar li a:hover , #navbar li a.active {
+ #navbar li a:hover , #navbar li a.active,
+ #cart-icon:hover ,#cart-icon:active {
     color:#088178;
  }
- #navbar li a.active::after , #navbar li a:hover::after {
+ #navbar li a.active::after , #navbar li a:hover::after,
+ #cart-icon.active::after , #cart-icon:hover::after{
     content: "";
     width: 30%;
     height: 2px;
@@ -112,6 +114,11 @@ button.white{
     bottom: -4px;
     left: 20px;
  }
+ #cart-icon{
+  font-size: 23px;
+  cursor: pointer;
+ }
+ 
  
 
  #mobile{
@@ -364,6 +371,7 @@ button.white{
     position: absolute;
     bottom: 20px;
     right: 10px;
+    font-size: 25px;
  }
 
  #banner{
