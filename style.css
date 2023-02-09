@@ -1075,9 +1075,9 @@ button.white{
       transition: 0.3s;
    }
    
-   #navbar.active{
-      right: 0px;
-   }
+   #navbar.active{ 
+       right: 0px; 
+    }
    #navbar li{
       margin-bottom: 25px;
    }
