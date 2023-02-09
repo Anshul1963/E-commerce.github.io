@@ -569,6 +569,7 @@ button.white{
    color: #465b52;
    padding-right: 4px;
    cursor: pointer;
+   font-size: 25px;
  }
  footer .install .row img{
    border: 1px solid #088178;
