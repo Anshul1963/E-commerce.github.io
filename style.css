@@ -1074,6 +1074,7 @@ button.white{
       padding: 80px 0 0 10px;
       transition: 0.3s;
    }
+   
    #navbar.active{
       right: 0px;
    }
@@ -1151,6 +1152,10 @@ button.white{
    }
    
 }
+
+
+
+
 
 
 
