@@ -28,10 +28,25 @@
             </ul> 
         </div>
 
+        <div class="cart-main">
+            <div class="cart-title">Your Cart</div>
+
+            <div class="cart-content">
+                
+            </div>
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">$0</div>
+            </div>
+            <button type="button" class="btn-buy"> Buy Now</button>
+            <i class="bx bx-x" id="close-cart"></i>
+        </div>
+
         <div id="mobile">
             <a id="icon" href="cart.html"><i class="fas fa-shopping-bag"></i></a>
             <a id="bar" href="#"><i id="bar" class="fas fa-outdent"></i></a>
         </div>
+
     </section>
 
     <!-- 2.Main-Banner Section -->
@@ -118,11 +133,12 @@
         <h2>Featured Products</h2>
         <p>Summer Collection New Modern Designs</p>
         <div class="pro-container">
-            <div class="pro">
-                <img src="img/products/f1.jpg" alt="">
+            <div class="pro" >
+                <!-- onclick="window.location.href='sproduct.html'" -->
+                <img src="img/products/f1.jpg" alt="" class="product-img">
                 <div class="des">
                     <span>Adidas</span>
-                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <h5 class="product-title">Cartoon T-Shirts</h5>
                     <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -130,16 +146,16 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>$78.6</h4>  
+                    <h4 class="price">$78.6</h4>  
                 </div>
-                <a href="#" class="cart"><i class="fas fa-1x fa-cart-plus "></i></a>
+                <i class="bx bxs-cart-add add-cart cart"></i>
             </div>
 
             <div class="pro">
-                <img src="img/products/f2.jpg" alt="">
+                <img src="img/products/f2.jpg" alt="" class="product-img">
                 <div class="des">
                     <span>Adidas</span>
-                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <h5 class="product-title">Cartoon Astronaut T-Shirts</h5>
                     <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -147,16 +163,16 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>$38.9</h4>  
+                    <h4 class="price">$38.9</h4>  
                 </div>
-                <a href="#" class="cart"><i class="fas fa-1x fa-cart-plus "></i></a>
+                <i class="bx bxs-cart-add add-cart cart"></i>
             </div>
 
             <div class="pro">
-                <img src="img/products/f3.jpg" alt="">
+                <img src="img/products/f3.jpg" alt="" class="product-img">
                 <div class="des">
                     <span>Adidas</span>
-                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <h5 class="product-title">Cartoon Astronaut T-Shirts</h5>
                     <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -164,16 +180,16 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>$58.2</h4>  
+                    <h4 class="price">$58.2</h4>  
                 </div>
-                <a href="#" class="cart"><i class="fas fa-1x fa-cart-plus "></i></a>
+                <i class="bx bxs-cart-add add-cart cart"></i>
             </div>
 
             <div class="pro">
-                <img src="img/products/f4.jpg" alt="">
+                <img src="img/products/f4.jpg" alt="" class="product-img">
                 <div class="des">
                     <span>Adidas</span>
-                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <h5 class="product-title">Cartoon Astronaut T-Shirts</h5>
                     <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -181,16 +197,16 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>$178.5</h4>  
+                    <h4 class="price">$178.5</h4>  
                 </div>
-                <a href="#" class="cart"><i class="fas fa-1x fa-cart-plus "></i></a>
+                <i class="bx bxs-cart-add add-cart cart"></i>
             </div>
 
             <div class="pro">
-                <img src="img/products/f5.jpg" alt="">
+                <img src="img/products/f5.jpg" alt="" class="product-img">
                 <div class="des">
                     <span>Adidas</span>
-                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <h5 class="product-title">Cartoon Astronaut T-Shirts</h5>
                     <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -198,16 +214,16 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>$110.9</h4>  
+                    <h4 class="price">$110.9</h4>  
                 </div>
-                <a href="#" class="cart"><i class="fas fa-1x fa-cart-plus "></i></a>
+                <i class="bx bxs-cart-add add-cart cart"></i>
             </div>
 
             <div class="pro">
-                <img src="img/products/f6.jpg" alt="">
+                <img src="img/products/f6.jpg" alt="" class="product-img">
                 <div class="des">
                     <span>Adidas</span>
-                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <h5 class="product-title">Cartoon Astronaut T-Shirts</h5>
                     <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -215,16 +231,16 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>$88.3</h4>  
+                    <h4 class="price">$88.3</h4>  
                 </div>
-                <a href="#" class="cart"><i class="fas fa-1x fa-cart-plus "></i></a>
+                <i class="bx bxs-cart-add add-cart cart"></i>
             </div>
 
             <div class="pro">
-                <img src="img/products/f7.jpg" alt="">
+                <img src="img/products/f7.jpg" alt="" class="product-img">
                 <div class="des">
                     <span>Adidas</span>
-                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <h5 class="product-title">Cartoon Astronaut T-Shirts</h5>
                     <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -232,16 +248,16 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>$48.1</h4>  
+                    <h4 class="price">$48.1</h4>  
                 </div>
-                <a href="#" class="cart"><i class="fas fa-1x fa-cart-plus "></i></a>
+                <i class="bx bxs-cart-add add-cart cart"></i>
             </div>
 
             <div class="pro">
-                <img src="img/products/f8.jpg" alt="">
+                <img src="img/products/f8.jpg" alt="" class="product-img">
                 <div class="des">
                     <span>Adidas</span>
-                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <h5 class="product-title">Cartoon Astronaut T-Shirts</h5>
                     <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -249,9 +265,9 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>$78.4</h4>  
+                    <h4 class="price">$78.4</h4>  
                 </div>
-                <a href="#" class="cart"><i class="fas fa-1x fa-cart-plus "></i></a>
+                <i class="bx bxs-cart-add add-cart cart"></i>
             </div>
         </div>
     </section>
