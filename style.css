@@ -373,6 +373,9 @@ button.white{
     right: 10px;
     font-size: 25px;
  }
+ #product1 .pro .cart:hover{
+  color:red;
+ }
 
  #banner{
    display: flex;
